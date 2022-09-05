@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">"
+    
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+    <style>
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        ul{
+            list-style: circle;/*none,circle,disc*/
+
+        }
+        .links li a{
+            color: aquamarine;
+        }
+        /*herencia*/
+        ul li a {
+            color: greenyellow;
+        }
+        .texto color{
+            color: blue;
+        }
+        /*important >inline>id>class*/
+        .texto-color-important {color:aquamarine !important;}
+        /*selector de atributos*/
+        [href] {
+            background-color: blueviolet;
+            text-decoration: line-through;
+        }
+        [id="nosotros"] {
+            background-color: coral;
+        }
+        [id="^re"] {
+            background-color: chartreuse;
+        }
+        [id*=ale=] {
+            font-size: smaller;
+            color: darkgreen;
+        }
+        [id$="os"] {
+            color: deeppink;
+        }
+
+
+
+
+        
+        
+    
+        
+        
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+        <div class="cajas">
+            <p>texto corto</p>
+        </div>
+        
+            
+
+        <header>
+            <section id="nosotros">
+                <h3>nosotros</h3>
+            </section>
+            <section>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, ipsam, autem nemo vel quod eius vero quia sit quasi fugiat accusantium facere accusamus at nostrum! Qui ratione explicabo accusantium a!</p>
+
+            </section>
+            <section id="galeria">
+                <h3>galeria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio impedit sint exercitationem molestias illo quia repudiandae, voluptates molestiae non voluptas quasi quod. Illo modi laborum, earum quibusdam ipsa quisquam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis tempora enim accusantium delectus ipsa totam minus consequuntur quasi nam in suscipit fuga perferendis ducimus debitis ratione, consectetur eaque deserunt aliquid?</p>
+
+            </section>
+            <section id="contacto">
+                <h3>contacto</h3>
+            </section>
+            
+                <p style="color: red;" parrafo2 class="texto color texto-color-important" id="texto color">parrafo 2</p>
+            </section>
+            <nav>
+                <ol class="links">
+                    <li>
+                        <a href="link1">link 1</a>
+                        <a href="nosotros"></a>
+                    </li>
+                    <li>
+                        <a href="link2">link 2</a>
+                    </li>
+                    <li>
+                        <a href="link3">link 3</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <p style="color:red" class="texto color" id="texto color"> parrafo</p>
+        </section>
+    </section>
+        <fieldset><legend>
+            mi primer fieldset
+        </legend>
+    <form><input type="file">
+    <input type="name archivo">
+<button></button></form>
+<table>tabla</table></fieldset>
+<section></section>
+    </main>
+    
+</body>
+</html>
